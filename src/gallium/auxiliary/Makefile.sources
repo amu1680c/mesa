@@ -238,11 +238,12 @@ C_SOURCES := \
 	util/u_draw.h \
 	util/u_draw_quad.c \
 	util/u_draw_quad.h \
+	util/u_driconf.c \
+	util/u_driconf.h \
 	util/u_dual_blend.h \
 	util/u_dump_defines.c \
 	util/u_dump.h \
 	util/u_dump_state.c \
-	util/u_fifo.h \
 	util/u_framebuffer.c \
 	util/u_framebuffer.h \
 	util/u_gen_mipmap.c \
@@ -297,9 +298,6 @@ C_SOURCES := \
 	util/u_texture.h \
 	util/u_tile.c \
 	util/u_tile.h \
-	util/u_trace.c \
-	util/u_trace.h \
-	util/u_trace_priv.h \
 	util/u_transfer.c \
 	util/u_transfer.h \
 	util/u_transfer_helper.c \
@@ -307,6 +305,8 @@ C_SOURCES := \
 	util/u_threaded_context.c \
 	util/u_threaded_context.h \
 	util/u_threaded_context_calls.h \
+	util/u_trace_gallium.c \
+	util/u_trace_gallium.h \
 	util/u_upload_mgr.c \
 	util/u_upload_mgr.h \
 	util/u_vbuf.c \
